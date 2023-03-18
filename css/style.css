@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* @import url(); */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+body{
+    /* background-color: darkkhaki; */
+    background-image:url("../image\ baground/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pp {
+    color: white;
+
+}
+h1{
+    color: white;
+    text-shadow: 1px 1px 8px whitesmoke;
+    text-align: center;
+    
+}
+p{
+    color: aliceblue;
+}
+div{
+    /* background-color: darkgray; */
+    background-color: #000000c2;
+    padding: 10px 10px 0 10px ;
+    text-align: center;
+    /* border-radius: 4px; */
+    font-family:"Pacifico";
+    
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: whitesmoke;
+}
+ol{
+    color: whitesmoke;
+}
+table{
+    color: white;
+    text-align: center;
+    
+}
+ul{
+    color: white;
+}
+.hh{
+    background-color: azure;
+    background-size: cover;
+    color: blueviolet;
+    text-shadow: 2px 2px 8px whitesmoke;
+    padding: 50px; 
+    border: 100px;
+    margin: 0 -8px -8px -8px;
+
+    
+}
+button{
+    width: 5rem;
+    height : 2rem;
+    background-color:rgb(72, 65, 110);
+    cursor: pointer;
+    border: black;
+    
+    
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:active{
+    background-color: rgb(80, 67, 102);
+}
+
+
+.div4{
+    
+    display: flex;
+
+
+    justify-content: space-around;
+
+    background-color:#faf2f2cc;
+    background-size:contain;
+    text-align: right;
+    padding: 10px;
+}
+
+.div4 .div4{
+    background-color: rgba(1, 1, 1, 0);
+}
+ul{
+    text-align: center;
+}
+label{
+    color: whitesmoke;
+}
+
+ion-icon{
+    color : white;
+}
